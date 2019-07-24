@@ -51,16 +51,19 @@ footer{
 #about-me {
     float: left;
     margin-top: 50px;
+    margin-right: 0px;
     padding: 30px;
 }
 
 #image-about-me{
+    float: right;
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 #formation{
     float: right;
-    margin-top: 50px;
+    margin-top: 90px;
     padding: 30px;
 }
 
@@ -68,6 +71,10 @@ footer{
     float: left;
     margin-top: 30px;
     padding: 30px;
+}
+
+#social-media a{
+    padding: 10px 0px 15px 15px;
 }
 
 /*class*/
