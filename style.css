@@ -8,9 +8,10 @@ body {
     width: auto;
     clear: both;
     background-color: #C0C0C0;
-    background-image: url(https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1440.jpg);
+    background-image: url("./images/background.jpg");
     background-size: cover;
     background-repeat: repeat-y;
+    overflow-x: hidden;
 } 
 
 .hover {
