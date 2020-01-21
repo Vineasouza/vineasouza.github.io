@@ -126,7 +126,7 @@ body {
     transform: scaleX(1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .links {
         flex-direction: column;
     }
