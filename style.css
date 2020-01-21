@@ -44,7 +44,7 @@ body {
 /* IMAGEM */
 .imagem img {
     position: center;
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -126,15 +126,25 @@ body {
     transform: scaleX(1);
 }
 
+/* INSTAGRAM */
+.instagram {
+    width: auto;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
 /* FOOTER */
 footer {
     color: #CCCCCC;
     font-size: 12px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     text-align: center;
     position:absolute;
     bottom:0;
     width:100%;
+    position: fixed;
 }
 
