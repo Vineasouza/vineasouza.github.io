@@ -132,36 +132,6 @@ body {
     }
 }
 
-/* INSTAGRAM */
-.instagram {
-    width: auto;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-}
-
-.instagram p {
-    color: #FFFFFF;
-    font-family: 'Cairo', sans-serif;
-    text-align: center;
-    animation-duration: 1s;
-    animation-name: slidein;
-    font-size: 20px;
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
 /* FOOTER */
 footer {
     color: #CCCCCC;
