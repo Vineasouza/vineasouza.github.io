@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconify/icons-akar-icons": "^1.1.4",
+    "@iconify/icons-ant-design": "^1.1.0",
     "@iconify/icons-bi": "^1.1.2",
+    "@iconify/icons-bx": "^1.1.0",
+    "@iconify/icons-cib": "^1.1.0",
     "@iconify/react": "^1.1.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -12,7 +16,6 @@
     "react-dom": "^17.0.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
-    "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

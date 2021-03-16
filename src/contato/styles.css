@@ -1,0 +1,71 @@
+.container {
+    /* background-color: blue; */
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+.leftContainer {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100vh;
+    z-index: -1;
+    /* opacity: 0.5; */
+}
+
+.fraseContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgContainer {
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/coffee.jpg');    
+    background-size: cover;
+    position: absolute;
+    z-index: -100000;
+    top: 200vh;
+    opacity: 0.60;
+}
+
+.textFrase {
+    /* color: #FFFFFF; */
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 72px;
+    line-height: 10px;
+}
+
+.rightContainer {
+    background-color: #EEEEEE;
+    width: 50%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.textLink {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Titillium Web';
+    font-weight: 200;
+    font-size: 22px;
+    margin: 10px 60px;
+    text-decoration: none;
+    color: black;
+}

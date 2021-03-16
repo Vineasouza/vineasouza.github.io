@@ -1,0 +1,19 @@
+.container {
+    /* background-color: blue; */
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+.leftContainer {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.rightContainer {
+    background-color: #EEEEEE;
+    width: 50%;
+    z-index: -1;
+}
