@@ -1,71 +1,66 @@
 .container {
-    /* background-color: blue; */
     display: flex;
-    flex: auto;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftContainer {
     background-color: #FFFFFF;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
-    z-index: -1;
-    /* opacity: 0.5; */
-}
-
-.fraseContainer {
-    width: 100%;
-    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-
-.bgContainer {
-    width: 50%;
-    height: 100%;
-    background-image: url('../assets/coffee.jpg');    
-    background-size: cover;
-    position: absolute;
-    z-index: -100000;
-    top: 200vh;
-    opacity: 0.60;
+    align-items: center;
 }
 
 .textFrase {
-    /* color: #FFFFFF; */
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 72px;
-    line-height: 10px;
+    font-size: 64px;
 }
 
 .rightContainer {
     background-color: #EEEEEE;
-    width: 50%;
-    z-index: -1;
+    width: 50vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.headerContainerContato{
+    position: absolute;
+    top: 300vh;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.linksContainer {
+    width: 50%;
+    margin-top: 50px;
 }
 
 .linkContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 50%;
     justify-content: flex-start;
-    padding-left: 40px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .textLink {
-    display: flex;
-    flex-wrap: wrap;
     font-family: 'Titillium Web';
+    font-size: 26px;
     font-weight: 200;
-    font-size: 22px;
-    margin: 10px 60px;
     text-decoration: none;
-    color: black;
+    color: #000000;
+    margin-left: 40px;
+}
+
+.textLink:hover {
+    color: #444444;
+    opacity: 0.5;
 }

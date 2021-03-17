@@ -1,19 +1,33 @@
 .container {
-    /* background-color: blue; */
     display: flex;
-    flex: auto;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftContainer {
     background-color: #FFFFFF;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
-    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rightContainer {
     background-color: #EEEEEE;
-    width: 50%;
-    z-index: -1;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainerPortifolio{
+    position: absolute;
+    top: 200vh;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
 }

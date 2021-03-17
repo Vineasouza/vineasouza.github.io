@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade';
 
 export default function main() {
     return (
-        <div className="container">
+        <div className="container" id="sobremim">
 
-            <div className="leftContainer">
+            <div className="leftContainerSobreMin">
                 <Fade bottom>
                     <div className="imageContainer"/>
                 </Fade>

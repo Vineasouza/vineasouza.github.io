@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 import './styles.css';
-import Fade from 'react-reveal/Fade';
 import { Icon } from '@iconify/react';
+import codeOutlined from '@iconify/icons-ant-design/code-outlined';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import bxCoffeeTogo from '@iconify/icons-bx/bx-coffee-togo';
 import bxlGitlab from '@iconify/icons-bx/bxl-gitlab';
 import fileEarmark from '@iconify/icons-bi/file-earmark';
@@ -14,10 +16,9 @@ import mailOutlined from '@iconify/icons-ant-design/mail-outlined';
 
 export default function main() {
     return (
-        <div className="container">
+        <div className="container" id="contato">
 
             <div className="leftContainer">
-                {/* <div className="bgContainer"/>  */}
                 <div className="fraseContainer">
                     <Fade>
                         <h1 className="textFrase">Turning</h1>
@@ -29,60 +30,68 @@ export default function main() {
             </div>
 
             <div className="rightContainer">
-                <Fade right>
-                    <div className="linkContainer">
-                        <Icon icon={bxCoffeeTogo} height={38}/>
-                        <a className="textLink" href="https://www.notion.so/vineasouza/Coffee-Stores-bf7e904562ef4541b88e2ca68e577647" >
-                            Coffee Stores
-                        </a>
+                <Zoom>
+                    <div className="headerContainerContato">
+                        <Icon icon={codeOutlined} width={39}/>
+                        <p className="textHeader">Contato</p>
                     </div>
-                    <div className="linkContainer">
-                        <Icon icon={fileEarmark} height={38}/>
-                        <a className="textLink" href="https://drive.google.com/file/d/1sRg2qM5QQEb8v9w_s7K5MZNa3Fs_fm6v/view?usp=sharing" >
-                            Curriculum vitæ
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={facebookFill} height={38}/>
-                        <a className="textLink" href="https://www.facebook.com/vineasouza" >
-                            Facebook
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={instagramFill} height={38}/>
-                        <a className="textLink" href="https://www.instagram.com/vineasouza/" >
-                            Instagram
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={githubFill} height={38}/>
-                        <a className="textLink" href="https://github.com/Vineasouza">
-                            Github
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={bxlGitlab} height={38}/>
-                        <a className="textLink" href="https://gitlab.com/vineasouza" >
-                            Gitlab
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={linkedinFill} height={38}/>
-                        <a className="textLink" href="https://www.linkedin.com/in/vineasouza/" >
-                            Linkedin
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={vscoIcon} height={38}/>
-                        <a className="textLink" href="http://vsco.co/vineasouza?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid">
-                            VSCO
-                        </a>
-                    </div>
-                    <div className="linkContainer">
-                        <Icon icon={mailOutlined} height={38}/>
-                        <p className="textLink"  onClick={()=> window.open("www.google.com", "_blank")}>Email</p>
-                    </div>
-                </Fade>
+                </Zoom>
+                <div className="linksContainer">
+                    <Fade right>
+                        <div className="linkContainer">
+                            <Icon icon={bxCoffeeTogo} height={38}/>
+                            <a className="textLink" href="https://www.notion.so/vineasouza/Coffee-Stores-bf7e904562ef4541b88e2ca68e577647" rel="noopener noreferrer" target="_blank">
+                                Coffee Stores
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={fileEarmark} height={38}/>
+                            <a className="textLink" href="https://drive.google.com/file/d/1sRg2qM5QQEb8v9w_s7K5MZNa3Fs_fm6v/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                                Curriculum vitæ
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={facebookFill} height={38}/>
+                            <a className="textLink" href="https://www.facebook.com/vineasouza" rel="noopener noreferrer" target="_blank">
+                                Facebook
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={instagramFill} height={38}/>
+                            <a className="textLink" href="https://www.instagram.com/vineasouza/" rel="noopener noreferrer" target="_blank">
+                                Instagram
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={githubFill} height={38}/>
+                            <a className="textLink" href="https://github.com/Vineasouza" rel="noopener noreferrer" target="_blank">
+                                Github
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={bxlGitlab} height={38}/>
+                            <a className="textLink" href="https://gitlab.com/vineasouza" rel="noopener noreferrer" target="_blank">
+                                Gitlab
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={linkedinFill} height={38}/>
+                            <a className="textLink" href={`https://www.linkedin.com/in/vineasouza/`} target="_blank" rel="noopener noreferrer">
+                                Linkedin
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={vscoIcon} height={38}/>
+                            <a className="textLink" href="https://vsco.co/vineasouza/gallery" rel="noopener noreferrer" target="_blank">
+                                VSCO
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <Icon icon={mailOutlined} height={38}/>
+                            <a className="textLink" href="mailto:vineasouza33@hotmail.com" rel="noopener noreferrer" target="_blank">Email</a>
+                        </div>
+                    </Fade>
+                </div>
             </div>            
         </div>
     )

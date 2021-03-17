@@ -1,76 +1,80 @@
 .container {
-    /* background-color: blue; */
     display: flex;
-    flex: auto;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftContainer {
     background-color: #FFFFFF;
-    width: 50%;
+    width: 50vw;
     height: 100vh;
-    z-index: -1;
-}
-
-.textLeftLogoContainer{
-    z-index: 1;
-    position: absolute;
-    width: 50%;
-    height: 100vh;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.rightContainer {
-    background-color: #EEEEEE;
-    width: 50%;
-    z-index: -1;
-}
-
-.textRightLogoContainer{
-    z-index: 1;
-    position: absolute;
-    width: 50%;
-    height: 100vh;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-.navBar {
-    /* background-color: aqua; */
-    width: 40%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 60px;
-}
-
-.textNavBar {
-    font-family: 'Titillium Web';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-.logoContainer {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
-    font-size: 82px;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: bolder;
-    line-height: normal;
+.textLogoContainer{
+    font-family: 'Frank Ruhl Libre';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.rightContainer {
+    background-color: #EEEEEE;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin: 20px;
+    width: 40vw;
+}
+
+.textNavBar {
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    transition: width 0.5s;
+    margin-bottom: 10px;
+}
+.textNavBar:hover {
+    width: 110%;
+    color: #444444;
+    opacity: 0.5;
+}
+.textNavBar:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #DDDDDD;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    transition: all 0.3s ease-in-out 0.2s;
+    transition-delay: 0.1s;
+}
+.textNavBar:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.logoContainer{
+    position: absolute;
 }
