@@ -38,7 +38,7 @@ export default function Main() {
             <div className="logoContainer">
                 <InlineIcon icon={codeSlash} height={(window.innerWidth)/12} />
             </div>
-            <div className="arrow bounce">
+            <div className="arrow bounce" onClick={() => window.scrollTo({top: 650, behavior: 'smooth'})}>
                 <InlineIcon icon={foldDown} height={24} />
             </div>
             
