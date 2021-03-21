@@ -1,15 +1,17 @@
 import React from 'react';
 import { InlineIcon } from '@iconify/react';
 import codeSlash from '@iconify/icons-bi/code-slash';
-import './styles.css';
+import foldDown from '@iconify/icons-codicon/fold-down';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import './styles.css';
 
-export default function main() {    
+export default function Main() {    
+
     return (
         <div className="container" id="home">
 
-            <div className="leftContainer">
+            <div className="leftContainerInitial">
                 <Zoom>
                     <div className="textLogoContainer">
                         <h1>Vinicius</h1>
@@ -17,7 +19,7 @@ export default function main() {
                 </Zoom>
             </div>
 
-            <div className="rightContainer">
+            <div className="rightContainerInitial">
                 <Fade top>
                     <div className="navBar">
                         <a className="textNavBar" href="#home">Home</a>
@@ -31,13 +33,13 @@ export default function main() {
                         <h1>Souza</h1>
                     </div>
                 </Zoom>
-                {/* <div className="logoContainer">
-                    <InlineIcon icon={codeSlash} height={100} />
-                </div> */}
             </div>            
             
             <div className="logoContainer">
-                <InlineIcon icon={codeSlash} height={100} />
+                <InlineIcon icon={codeSlash} height={(window.innerWidth)/12} />
+            </div>
+            <div className="arrow bounce">
+                <InlineIcon icon={foldDown} height={24} />
             </div>
             
         </div>

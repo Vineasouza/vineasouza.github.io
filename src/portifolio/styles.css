@@ -5,29 +5,146 @@
     align-items: center;
 }
 
-.leftContainer {
-    background-color: #FFFFFF;
+.leftContainerPorfolio {
+    background-color: #282A36;
     width: 50vw;
-    height: 100vh;
+    height: 283.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../assets/code2.jpg');
+    background-size: contain;
+    opacity: 0.85;
 }
 
-.rightContainer {
+.rightContainerPortifolio {
     background-color: #EEEEEE;
     width: 50vw;
-    height: 100vh;
+    height: fit-content;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; 
     align-items: center;
 }
 
 .headerContainerPortifolio{
-    position: absolute;
-    top: 200vh;
+    position: relative;
     display: flex; 
     flex-direction: row;
     align-items: center;
-    padding: 30px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+.stackContainer {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.stackContainer p {
+    font-family: 'Titillium Web';
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.iconStackContainer {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.separator{
+    width: 80%;
+    height: 1px;
+    background-color: #CCCCCC50;
+    opacity: 0.5;
+    margin: 40px 0px;
+}
+
+/*-----------Portifolio-----------*/
+.portifolioContainer {
+    width: 80%;
+}
+
+.portifolioTextTitle{
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 0px;
+    text-decoration: overline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.5px;
+    color: #000000;
+}
+.portifolioTextTitle:hover {
+    color: #444444;
+    opacity: 0.5;
+}
+
+.portifolioTechContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.portifolioTextTech{
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15%;
+}
+.portifolioTechs {
+    margin-left: 10px;
+}
+
+.portifolioTextContent {
+    font-family: 'Titillium Web';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*-----------Iniciacao Cientifica-----------*/
+.icTextSubTitle {
+    font-family: 'Titillium Web';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icPubli{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icTextPubli{
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: overline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.5px;
+    color: #000000;
+}
+.icTextPubli:hover {
+    color: #444444;
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 825px) {
+    .leftContainerPorfolio {
+        display: none;
+    }
+
+    .rightContainerPortifolio {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portifolioTextContent {
+        font-size: 14px;
+    }
 }

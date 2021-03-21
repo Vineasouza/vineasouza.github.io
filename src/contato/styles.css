@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.leftContainer {
+.leftContainerContato {
     background-color: #FFFFFF;
     width: 50vw;
     height: 100vh;
@@ -19,7 +19,7 @@
     font-size: 64px;
 }
 
-.rightContainer {
+.rightContainerContato {
     background-color: #EEEEEE;
     width: 50vw;
     height: 100vh;
@@ -30,12 +30,10 @@
 }
 
 .headerContainerContato{
-    position: absolute;
-    top: 300vh;
+    position: relative;
     display: flex; 
     flex-direction: row;
     align-items: center;
-    padding: 30px 0px 0px 0px;
 }
 
 .linksContainer {
@@ -63,4 +61,20 @@
 .textLink:hover {
     color: #444444;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 825px) {
+    .leftContainerContato {
+        display: none;
+    }
+
+    .rightContainerContato {
+        width: 100vw;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    .headerContainerContato{
+        margin-top: 100px;
+    }
 }

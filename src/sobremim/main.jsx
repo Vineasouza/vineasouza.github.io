@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import codeOutlined from '@iconify/icons-ant-design/code-outlined';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import Perfil from '../assets/perfil2.jpg'
 
 export default function main() {
     return (
@@ -15,10 +16,11 @@ export default function main() {
                 </Fade>
             </div>
 
-            <div className="rightContainer">
+            <div className="rightContainerSobreMim">
+                <img src={Perfil} className="hiddenImg" alt="personal"/>
                 <Zoom>
                     <div className="headerContainer">
-                        <Icon icon={codeOutlined} width={39}/>
+                        <Icon icon={codeOutlined} width={38}/>
                         <p className="textHeader">Sobre mim...</p>
                     </div>
                 </Zoom>

@@ -18,7 +18,7 @@ export default function main() {
     return (
         <div className="container" id="contato">
 
-            <div className="leftContainer">
+            <div className="leftContainerContato">
                 <div className="fraseContainer">
                     <Fade>
                         <h1 className="textFrase">Turning</h1>
@@ -29,10 +29,10 @@ export default function main() {
                 </div>
             </div>
 
-            <div className="rightContainer">
+            <div className="rightContainerContato">
                 <Zoom>
                     <div className="headerContainerContato">
-                        <Icon icon={codeOutlined} width={39}/>
+                        <Icon icon={codeOutlined} width={38}/>
                         <p className="textHeader">Contato</p>
                     </div>
                 </Zoom>
