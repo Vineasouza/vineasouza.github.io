@@ -21,7 +21,7 @@ import './styles.css'
 
 export default function Main() {
     return (
-        <div className="container" id="portifolio">
+        <div className="containerPortifolio" id="portifolio">
 
             <div className="leftContainerPorfolio">
             </div>
@@ -85,7 +85,7 @@ export default function Main() {
                                 </p>
                                 <div className="icPubli">
                                     <a className="icTextPubli" href="https://eventos.utfpr.edu.br/sicite/sicite2020/paper/view/6244" rel="noopener noreferrer" target="_blank">XXV Seminário de Iniciação Científica e Tecnológica da UTFPR (SICITE 2020)</a>                                
-                                    <a className="icTextPubli" href="https://www.brazilianjournals.com/index.php/BRJD/article/view/23859" rel="noopener noreferrer" target="_blank"> Brazilian Journal of Development</a>                                
+                                    <a className="icTextPubli" href="https://www.brazilianjournals.com/index.php/BRJD/article/view/23959" rel="noopener noreferrer" target="_blank"> Brazilian Journal of Development</a>                                
                                 </div>
                             </div>
                         </Fade>

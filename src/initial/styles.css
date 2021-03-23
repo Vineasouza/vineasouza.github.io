@@ -89,6 +89,10 @@
     padding: 20px;
 }
 
+.arrow a {
+  color: #000000;
+}
+
 .bounce {
     -moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;

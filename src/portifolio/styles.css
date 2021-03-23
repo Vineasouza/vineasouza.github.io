@@ -1,14 +1,15 @@
-.container {
+.containerPortifolio {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: fit-content;
 }
 
 .leftContainerPorfolio {
     background-color: #282A36;
     width: 50vw;
-    height: 283.5vh;
+    height: 284.8vh;
     display: flex;
     justify-content: center;
     align-items: center;
