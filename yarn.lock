@@ -1209,6 +1209,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@iconify-icons/ant-design@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/ant-design/-/ant-design-1.1.0.tgz#7fbaa994dcac24195512164595118819e5749bca"
+  integrity sha512-RU3MljXpV3Y777woJb8t1ymJ+4k7QqGDOYsSJxkDHNRkJruPl0CtC/QpXgPYA+beAmhTTfz2HPZSJXYnZUlAmg==
+
 "@iconify/icons-akar-icons@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.1.4.tgz#c27168013bc681eaaf5bf16d94f7b0287a716af6"

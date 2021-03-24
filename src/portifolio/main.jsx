@@ -169,7 +169,10 @@ export default function Main() {
                         <Fade right>
                             <div className="portifolioContent">
                                 <p className="portifolioTextContent">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec accumsan felis. Morbi ac elementum metus, eu pharetra eros. Mauris id pretium nisi, in accumsan est. Integer iaculis ullamcorper justo eget convallis. In fermentum erat maximus augue porttitor, nec cursus nibh cursus. Praesent nibh ante, ultricies euismod nibh sed, euismod mattis nibh. Nunc eros nunc, hendrerit ut commodo at, bibendum eu quam. Fusce quis massa a eros cursus tincidunt.
+                                    Sistema de agendamento de consultas, realizado em um aplicativo mobile desenvolvido em React Native, destinado ao usuário final, um gerenciador web desenvolvido em ReactJS, destinado a donos de clinicas e seus médicos, o backend desenvolvido em NodeJS e o banco de dados utilizando PostgresSQL. 
+                                </p>
+                                <p className="portifolioTextContent">
+                                    Projeto realizado enquanto membro da <a className="icTextPubli" href="https://www.unect.com.br/">UnectJr</a>.
                                 </p>
                             </div>
                         </Fade>
