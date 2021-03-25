@@ -84,8 +84,13 @@ export default function Main() {
                                     O desenvolvimento do analisador de sentimento requereu 6 fases: armazenamento da base de tweets manualmente rotulados; pré-processamento, utilizando métodos de limpeza do texto,  tokenização  e  remoção  de  stopwords; aplicação  do  método  Term  Frequency–Inverse Document Frequency (TF-IDF); treinamento do classificador; coleta dos novos tweets em streaming e; análise de sentimento em  tempo real. Após o desenvolvimento das fases citadas anteriormente, o analisador de sentimento atingiu uma acurácia de 76,8 por cento
                                 </p>
                                 <div className="icPubli">
+                                    <p className="portifolioTextContent">Publicações:</p>
+                                    <li>
                                     <a className="icTextPubli" href="https://eventos.utfpr.edu.br/sicite/sicite2020/paper/view/6244" rel="noopener noreferrer" target="_blank">XXV Seminário de Iniciação Científica e Tecnológica da UTFPR (SICITE 2020)</a>                                
-                                    <a className="icTextPubli" href="https://www.brazilianjournals.com/index.php/BRJD/article/view/23959" rel="noopener noreferrer" target="_blank"> Brazilian Journal of Development</a>                                
+                                    </li>
+                                    <li>
+                                        <a className="icTextPubli" href="https://www.brazilianjournals.com/index.php/BRJD/article/view/23959" rel="noopener noreferrer" target="_blank"> Brazilian Journal of Development</a>                                
+                                    </li>
                                 </div>
                             </div>
                         </Fade>
