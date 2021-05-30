@@ -1,91 +1,91 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .leftContainerSobreMin {
-    background-color: #FFFFFF;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../assets/perfil.jpg');
-    background-position-y: -60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #ffffff;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/perfil.jpg");
+  background-position-y: -60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .rightContainerSobreMim {
-    background-color: #EEEEEE;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #eeeeee;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.headerContainer{
-    position: relative;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
+.headerContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .textHeader {
-    font-family: 'Titillium Web';
-    font-size: 26px;
-    font-weight: 200;
-    margin-left: 10px;
+  font-family: "Titillium Web";
+  font-size: 26px;
+  font-weight: 200;
+  margin-left: 10px;
 }
 
 .contentContainer {
-    width: 80%;
+  width: 80%;
 }
 
 .textContent {
-    font-family: 'Titillium Web';
-    font-size: 18px;
-    font-weight: 300;
-    margin-left: 10px;
-    text-align: justify;
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 10px;
+  text-align: justify;
 }
 
 .hiddenImg {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 825px) {
-    .leftContainerSobreMin {
-        display: none;
-    }
+  .leftContainerSobreMin {
+    display: none;
+  }
 
-    .rightContainerSobreMim {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .rightContainerSobreMim {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .hiddenImg {
-        display: flex;
-        border-radius:50%;
-        width: 40%;
-    }
+  .hiddenImg {
+    display: flex;
+    border-radius: 50%;
+    width: 40%;
+  }
 
-    .textHeader {
-        font-size: 18px;
-    }
+  .textHeader {
+    font-size: 18px;
+  }
 
-    .textContent{
-        font-size: 16px;
-    }
+  .textContent {
+    font-size: 16px;
+  }
 
-    .headerContainer {
-        margin-top: 40px;
-    }
+  .headerContainer {
+    margin-top: 40px;
+  }
 }

@@ -1,81 +1,81 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
 }
 
 .leftContainerContato {
-    background-color: #FFFFFF;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #ffffff;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textFrase {
-    font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 64px;
+  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 64px;
 }
 
 .rightContainerContato {
-    background-color: #EEEEEE;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #eeeeee;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.headerContainerContato{
-    position: relative;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
+.headerContainerContato {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .linksContainer {
-    width: 50%;
-    margin-top: 50px;
+  width: 50%;
+  margin-top: 50px;
 }
 
 .linkContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .textLink {
-    font-family: 'Titillium Web';
-    font-size: 26px;
-    font-weight: 200;
-    text-decoration: none;
-    color: #000000;
-    margin-left: 40px;
+  font-family: "Titillium Web";
+  font-size: 26px;
+  font-weight: 200;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 40px;
 }
 
 .textLink:hover {
-    color: #444444;
-    opacity: 0.5;
+  color: #444444;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 825px) {
-    .leftContainerContato {
-        display: none;
-    }
+  .leftContainerContato {
+    display: none;
+  }
 
-    .rightContainerContato {
-        width: 100vw;
-        height: fit-content;
-        padding-bottom: 40px;
-    }
+  .rightContainerContato {
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 40px;
+  }
 
-    .headerContainerContato{
-        margin-top: 100px;
-    }
+  .headerContainerContato {
+    margin-top: 100px;
+  }
 }
