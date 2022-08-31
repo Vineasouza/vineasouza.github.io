@@ -1207,10 +1207,12 @@
   resolved "https://registry.yarnpkg.com/@iconify-icons/ant-design/-/ant-design-1.1.0.tgz#7fbaa994dcac24195512164595118819e5749bca"
   integrity sha512-RU3MljXpV3Y777woJb8t1ymJ+4k7QqGDOYsSJxkDHNRkJruPl0CtC/QpXgPYA+beAmhTTfz2HPZSJXYnZUlAmg==
 
-"@iconify/icons-akar-icons@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.1.4.tgz#c27168013bc681eaaf5bf16d94f7b0287a716af6"
-  integrity sha512-xhnPIjxI3VjGsFvUz1xSGclp4EFMydGGjQJQ66ZGqcKUmmvX9PRj4PZtRUJTlW5v11p/O3YVOZN6w0cix/Zwsw==
+"@iconify/icons-akar-icons@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.2.9.tgz#8add6a0534bd00a038d32fd19769860d2847abb3"
+  integrity sha512-57QfZjfdWoxW6SJ1wYzd6Id8TbBkS9zuHX9ii0Zhsv6IOJ9vbDgfbZz8gaNz7nabV5St5o7oLFLA9Izxb5dpyw==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-ant-design@^1.1.0":
   version "1.1.0"
