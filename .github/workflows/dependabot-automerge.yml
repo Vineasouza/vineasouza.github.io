@@ -1,6 +1,9 @@
 name: 'Dependabot Automerge - Action'
 
 on:
+  push:
+    branches: 
+      - develop
   pull_request:
 
 permissions:
