@@ -1214,10 +1214,12 @@
   resolved "https://registry.yarnpkg.com/@iconify-icons/ant-design/-/ant-design-1.1.0.tgz#7fbaa994dcac24195512164595118819e5749bca"
   integrity sha512-RU3MljXpV3Y777woJb8t1ymJ+4k7QqGDOYsSJxkDHNRkJruPl0CtC/QpXgPYA+beAmhTTfz2HPZSJXYnZUlAmg==
 
-"@iconify/icons-akar-icons@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.1.4.tgz#c27168013bc681eaaf5bf16d94f7b0287a716af6"
-  integrity sha512-xhnPIjxI3VjGsFvUz1xSGclp4EFMydGGjQJQ66ZGqcKUmmvX9PRj4PZtRUJTlW5v11p/O3YVOZN6w0cix/Zwsw==
+"@iconify/icons-akar-icons@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.2.9.tgz#8add6a0534bd00a038d32fd19769860d2847abb3"
+  integrity sha512-57QfZjfdWoxW6SJ1wYzd6Id8TbBkS9zuHX9ii0Zhsv6IOJ9vbDgfbZz8gaNz7nabV5St5o7oLFLA9Izxb5dpyw==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-ant-design@^1.1.0":
   version "1.1.0"
@@ -1278,6 +1280,11 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@iconify/svelte/-/svelte-1.0.4.tgz#0fd5877ca8c7fa60cdb74f9c64b2490f019e4859"
   integrity sha512-Bjr4UMJUsMCra1lpMYIijLZJustalA7FuBldV9B7IsaeKGZ06rcmgeVUYJqrKJ/0bhRg/chcKasLjUlFqWIoMQ==
+
+"@iconify/types@*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
+  integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -11043,10 +11050,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
