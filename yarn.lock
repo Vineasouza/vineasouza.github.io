@@ -1244,10 +1244,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-codicon/-/icons-codicon-1.1.11.tgz#802eebd547fab5d07a5602389eb6b7f49043242f"
   integrity sha512-Z6TgzWudY0SqyV7mWKer8W5i9+m/93+Xu1MlU2xwQPlzf9OFA2gtT5WYSi6aE35NRl6ACjqfc/K3EyYvxwAPSw==
 
-"@iconify/icons-emojione-monotone@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-emojione-monotone/-/icons-emojione-monotone-1.1.0.tgz#0feaf8568cac57c67dadefbfb08f3335a973fd67"
-  integrity sha512-fz2NZ40hq3Ud0QryD9Q0CalEsrrdbay5lBSoP1HuBdu2GMh4SBwibxFMSxy2qqbom69BeitiHl/GHAvW6ybbsg==
+"@iconify/icons-emojione-monotone@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-emojione-monotone/-/icons-emojione-monotone-1.2.3.tgz#b6c3c226cd6228ed90cd303e29b02bd9bc33db76"
+  integrity sha512-VeobVCiqvXRoSXkf5zeKjwMzhAFfVVxM8crIGuRrwzrcezz10eo009RTisqS1nHUVj35bAq6F+5Lq9HrnOlwHw==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-fa-brands@^1.1.0":
   version "1.1.0"
@@ -1278,6 +1280,11 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@iconify/svelte/-/svelte-1.0.4.tgz#0fd5877ca8c7fa60cdb74f9c64b2490f019e4859"
   integrity sha512-Bjr4UMJUsMCra1lpMYIijLZJustalA7FuBldV9B7IsaeKGZ06rcmgeVUYJqrKJ/0bhRg/chcKasLjUlFqWIoMQ==
+
+"@iconify/types@*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
+  integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
