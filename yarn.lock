@@ -1266,20 +1266,22 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.1.1.tgz#178ed400e0f4109229254212e33aa7c742b035db"
   integrity sha512-c/8HS+ghdQK3PuOVq234zrbOQLzoLNN7oLc9ftSQIQ3fquP9Up3GkPKUhzL2y2C2OC/FtYNQuHqFS/yaGi5rZg==
 
-"@iconify/react@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.4.tgz#c778eddbaf196e55705d0bedff00d039dc1de8d3"
-  integrity sha512-oxq8IMOq8q3nKGiDHbQPC8FcFuBsKve68JWBo140d5LRnj0bv5TB/FE/y01ZSvEZ7PlI2HIrnb2qivPN8kTDgw==
+"@iconify/react@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-4.0.0.tgz#0e2238fec072bfca0f2b9b6ff9e60c721c4abf32"
+  integrity sha512-YE+z5PCegYyuJtLR6KBbJNlssmuVgRyFyRxcgxSPVkN3Gsm7npSzrUh+gWlBxrNb5g4Q6Nnb1gczPBNcwtUpng==
+  dependencies:
+    "@iconify/types" "^2.0.0"
 
 "@iconify/svelte@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@iconify/svelte/-/svelte-1.0.4.tgz#0fd5877ca8c7fa60cdb74f9c64b2490f019e4859"
   integrity sha512-Bjr4UMJUsMCra1lpMYIijLZJustalA7FuBldV9B7IsaeKGZ06rcmgeVUYJqrKJ/0bhRg/chcKasLjUlFqWIoMQ==
 
-"@iconify/types@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
-  integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
+"@iconify/types@*", "@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
