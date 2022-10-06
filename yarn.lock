@@ -1234,10 +1234,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-cib/-/icons-cib-1.1.0.tgz#f718e7c311d30573418f25cec2bf2fece286afd5"
   integrity sha512-WZb+BlQAJQqcYdUb66pGpK4AEm3taWos5SWDoCaba5w0QoFmTeFY4G6kxmq1unvicT0Ah69DJ6KD1kIWh5iYUw==
 
-"@iconify/icons-codicon@^1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-codicon/-/icons-codicon-1.1.11.tgz#802eebd547fab5d07a5602389eb6b7f49043242f"
-  integrity sha512-Z6TgzWudY0SqyV7mWKer8W5i9+m/93+Xu1MlU2xwQPlzf9OFA2gtT5WYSi6aE35NRl6ACjqfc/K3EyYvxwAPSw==
+"@iconify/icons-codicon@^1.2.17":
+  version "1.2.17"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-codicon/-/icons-codicon-1.2.17.tgz#c76a535202f1299777afe22247e9a9bea2b20a42"
+  integrity sha512-jSQw426NfL/5Pyfz354yoEsiQCtM7OIxyAVixT6zRcIV8p3FVriSaOMFscWpe0LW+RoWqvYFiykLOR91TA1Z+A==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-emojione-monotone@^1.2.3":
   version "1.2.3"
