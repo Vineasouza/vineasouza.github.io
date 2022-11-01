@@ -1219,10 +1219,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-ant-design/-/icons-ant-design-1.1.0.tgz#013574b09d8dd167490e6fd6dd0b2805d7170854"
   integrity sha512-sE4NKXMfN9arTFmfvt4zARoS+hjhd8P0z5osjWYxVkQPCri1RYpF+NRa9MsDh3ScqAcSU9wfUeQ3X4Gf8GrcNQ==
 
-"@iconify/icons-bi@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-bi/-/icons-bi-1.1.2.tgz#c4e9996ba4a7f8f58fe8ada8d149486eaf9d2b0a"
-  integrity sha512-EWIVIHjT84AyTeevXGmrX0UhAvJVhjPdVpP1zKyxSpCZ+uf6WrvJvD5o97jIUxWSCufcJ3Wxm3vaucuE0sYmdw==
+"@iconify/icons-bi@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-bi/-/icons-bi-1.2.11.tgz#8a33508ce35f14a61dff28144798e22a8bffdf4c"
+  integrity sha512-V5TllvlSEpI3he/A7r72ksj3jCrRUvKcaADgM9ulukXwLdNhIJ3ua46wGYDhc9pY+uRnI/MtxO0BAi67YkVVGA==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-bx@^1.1.0":
   version "1.1.0"
