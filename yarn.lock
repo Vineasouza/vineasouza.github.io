@@ -1251,10 +1251,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-fa-brands/-/icons-fa-brands-1.1.0.tgz#a7eab49c679c54813f204891e2a307a73e044725"
   integrity sha512-7IsOtTx4lPPqkYdz5fydOo/RXQAIq62gNJCasU+o7OkX/Sk15zW6b7atpf0fK2LmdDmejWlzkZkc5xKGaD+rHA==
 
-"@iconify/icons-grommet-icons@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-grommet-icons/-/icons-grommet-icons-1.1.0.tgz#67ead773dfc70c131cf36d27a1f760a62f00aff5"
-  integrity sha512-O+co9AAItJ/2ECGKXYhOLaZ94DGA5qtJD7DpDOMFrTmELiaGS4QzFQHyNeXswHW44KXJ2UxkB0Xk61Ha175jgA==
+"@iconify/icons-grommet-icons@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-grommet-icons/-/icons-grommet-icons-1.2.5.tgz#a475f8782ce690409ee986366eeed54fb144d326"
+  integrity sha512-lZ8CWGhcBaNpC/ajBK8gyD/pY1aze7RgKgsPcS3tiJrEZ5jA0TNJVWVQK58OMzYzS97sBsS6/IWyUJvMGBz2Rw==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-icomoon-free@^1.1.0":
   version "1.1.0"
