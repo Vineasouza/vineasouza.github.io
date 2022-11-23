@@ -1261,10 +1261,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-icomoon-free/-/icons-icomoon-free-1.1.0.tgz#78d0661816f862286e3832a2b46f01d77f746722"
   integrity sha512-h53jEJe5n82nFasgnMNoru6u9AwUIjcPwi9WTwxIQcIY886W3iNtWfqROomUTAetUK4+eSnZz5xEWSuTacYkFw==
 
-"@iconify/icons-uil@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.1.1.tgz#178ed400e0f4109229254212e33aa7c742b035db"
-  integrity sha512-c/8HS+ghdQK3PuOVq234zrbOQLzoLNN7oLc9ftSQIQ3fquP9Up3GkPKUhzL2y2C2OC/FtYNQuHqFS/yaGi5rZg==
+"@iconify/icons-uil@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.2.3.tgz#0ca2a03e2713dff34d26faa2ea345cefa102c6cf"
+  integrity sha512-loI7/zYhXo7ovDY/l5gfQ1BkVLryEtzMeB1Ch1gA1YIYpsqXnV8IVsiX3TQYp6RpPjI+9De1ngGv0nC4aoqosA==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/react@^1.1.4":
   version "1.1.4"
