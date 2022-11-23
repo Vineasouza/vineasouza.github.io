@@ -1229,10 +1229,12 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-bx/-/icons-bx-1.1.0.tgz#6ce5251aee266ad5a8ee3effab1d031281edb61e"
   integrity sha512-4TyjNcB4hO5e5pTe/M0xaW1vqK92DcK3y9n0cDx/bUaBBa/xt2K3OM6uBGVbna2yIcmDvQJGPJpd5hnXtgZrBw==
 
-"@iconify/icons-cib@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-cib/-/icons-cib-1.1.0.tgz#f718e7c311d30573418f25cec2bf2fece286afd5"
-  integrity sha512-WZb+BlQAJQqcYdUb66pGpK4AEm3taWos5SWDoCaba5w0QoFmTeFY4G6kxmq1unvicT0Ah69DJ6KD1kIWh5iYUw==
+"@iconify/icons-cib@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-cib/-/icons-cib-1.2.4.tgz#5b37e0d2db234075971c9ab4fe62c710ea5b588c"
+  integrity sha512-CvVI7fPC9seFxnOB+G8GQaWTs92Ycf40jcAISllwrzxHacqOokebljw986ssVgVL4xMOl8Bo0SdBqRbDDW8jsA==
+  dependencies:
+    "@iconify/types" "*"
 
 "@iconify/icons-codicon@^1.1.11":
   version "1.1.11"
